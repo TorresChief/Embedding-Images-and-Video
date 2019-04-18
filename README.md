@@ -8,5 +8,5 @@ This is the first project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### Authors
 
-* [@TorresChief](https://github.com/TorresChief)
+* [@Torres-ssf](https://github.com/Torres-ssf)
 * [@bolah2009](https://github.com/bolah2009/)
