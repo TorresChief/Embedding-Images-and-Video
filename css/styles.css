@@ -2,12 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-iframe {
-  border: 0px;
-}
-main {
-  margin: 2% 3%;
-}
 
 footer {
   text-align: center;
@@ -103,24 +97,54 @@ footer {
   height: 38px;
 }
 
-.player-video {
-  position: relative;
-  padding-bottom: 14.0625%; /* 16:9 */
-  padding-top: 25px;
+.video-container {
+  width: 100%;
   height: 0;
 }
 
-.player-video iframe {
+.video-frame {
+  border: none;
+  height: 408px;
+  width: 100%;
+}
+
+/* .player-video iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 
 .flex-container {
+  box-sizing: border-box;
   display: flex;
-  flex-flow: row wrap;
+  margin-top: 60px;
+  padding: 0 90px;
+  width: 100%;
+}
+
+.video-section {
+  margin-top: 20px;
+  width: 65%;
+}
+
+.up-next {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-top: 4px;
+  padding: 0px 24px;
+}
+
+.section-heading {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /* box-sizing: border-box; */
+  font-size: 1.0rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 0;
+  padding: 12px 0;
 }
 
 .fa-youtube {
@@ -133,30 +157,13 @@ footer {
   font-weight: 700;
 }
 
-.player-video {
-  min-width: 560px;
-  min-height: 315px;
-}
-
-.player {
-  padding: 20px 40px;
-  width: 60%;
-}
-
 .video-title {
   font-size: 1.2rem;
-}
-
-.up-next {
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 0px 40px;
 }
 
 .next-card {
   display: flex;
   flex-flow: row nowrap;
-  margin-top: 8px;
 }
 
 .next-card-details p {
