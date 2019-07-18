@@ -115,15 +115,13 @@ footer {
 
 .video-section {
   margin-top: 20px;
-  max-width: 725px;
+  max-width: 775px;
   min-width: 640px;
 }
 
 .video-container {
   width: 100%;
-  height: 0;
-  max-height: 408px;
-  min-height: 360px;
+  height: 408px;
 }
 
 .video-frame {
@@ -162,6 +160,50 @@ footer {
 
 .video-title {
   font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin: 10px 0;
+}
+
+.video-bar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+.views-number {
+  color: #606060;
+  font-size: 1rem;
+  font-weight: 400;
+  flex: 1;
+}
+
+.thumb-button {
+  background-color: white;
+  border: none;
+}
+
+.thumb-icon {
+  width: 20px;
+  height: 20px;
+  fill: #909090;
+}
+
+.count-likes {
+  color: #909090;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .007px;
+  text-transform: uppercase;
+}
+
+.share-button {
+  text-decoration: none;
+}
+
+.share-button .thumb-icon {
+  margin: auto 0; 
 }
 
 .next-card {
